@@ -8,13 +8,26 @@ body {
   background: #f8f8f8;
 }
 
-/* line 11, ../_sass/screen.scss */
-.nav.nav-pills {
-  padding-top: 15px;
-  float: right;
+/* line 12, ../_sass/screen.scss */
+.navbar {
+  background: white;
+  margin-bottom: 0;
 }
 
 /* line 16, ../_sass/screen.scss */
+.nav.nav-pills {
+  padding-top: 15px;
+  float: right;
+  padding-bottom: 15px;
+}
+
+/* line 21, ../_sass/screen.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #4EB4D5;
+}
+
+/* line 25, ../_sass/screen.scss */
 .container2 {
   padding-right: 15px;
   padding-left: 15px;
@@ -22,19 +35,21 @@ body {
   margin-left: auto;
 }
 
-/* line 23, ../_sass/screen.scss */
+/* line 32, ../_sass/screen.scss */
 .hero {
   background: url(../images/sketch-b.jpg);
   width: 100%;
+  padding-top: 150px;
   margin-bottom: 15px;
+  padding-bottom: 75px;
 }
 
-/* line 29, ../_sass/screen.scss */
+/* line 39, ../_sass/screen.scss */
 h1, h2 {
   font-family: 'Arvo', serif;
 }
 
-/* line 33, ../_sass/screen.scss */
+/* line 43, ../_sass/screen.scss */
 .img-frame {
   background: white;
   padding: 15px;

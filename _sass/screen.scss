@@ -8,11 +8,20 @@
 body {
     background: #f8f8f8;
 }
+
+.navbar {
+    background: white;
+    margin-bottom: 0;
+}
     .nav.nav-pills{
         padding-top: 15px;
         float:right;
+        padding-bottom: 15px;
     }
-
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #4EB4D5;
+}
 .container2 {
   padding-right: 15px;
   padding-left: 15px;
@@ -23,8 +32,9 @@ body {
 .hero {
     background: url(../images/sketch-b.jpg);
     width: 100%;
-
+    padding-top: 150px;
     margin-bottom: 15px;
+    padding-bottom: 75px;
 }
 h1, h2 {
     font-family: 'Arvo', serif;
