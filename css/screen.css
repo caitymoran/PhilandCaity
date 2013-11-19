@@ -1,0 +1,41 @@
+/* line 4, ../_sass/screen.scss */
+* {
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../_sass/screen.scss */
+body {
+  background: #f8f8f8;
+}
+
+/* line 11, ../_sass/screen.scss */
+.nav.nav-pills {
+  padding-top: 15px;
+  float: right;
+}
+
+/* line 16, ../_sass/screen.scss */
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 23, ../_sass/screen.scss */
+.hero {
+  background: url(../images/sketch-b.jpg);
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* line 29, ../_sass/screen.scss */
+h1, h2 {
+  font-family: 'Arvo', serif;
+}
+
+/* line 33, ../_sass/screen.scss */
+.img-frame {
+  background: white;
+  padding: 15px;
+}

@@ -1,0 +1,42 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+* {
+    background-repeat: no-repeat;
+}
+
+body {
+    background: #f8f8f8;
+}
+    .nav.nav-pills{
+        padding-top: 15px;
+        float:right;
+    }
+
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero {
+    background: url(../images/sketch-b.jpg);
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+h1, h2 {
+    font-family: 'Arvo', serif;
+}
+
+.img-frame {
+    background: white;
+    padding: 15px;
+
+}
+@media screen and (min-width: 800px) {
+
+}
+
+
