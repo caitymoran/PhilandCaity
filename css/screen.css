@@ -1,56 +1,120 @@
-/* line 4, ../_sass/screen.scss */
+/* line 66, sprites/*.png */
+.sprites-sprite, .twitter, .facebook, .pinterest {
+  background: url('../img/sprites-sccc2d9c1d3.png') no-repeat;
+}
+
+/* line 6, ../_sass/screen.scss */
 * {
   background-repeat: no-repeat;
 }
 
-/* line 8, ../_sass/screen.scss */
+/* line 10, ../_sass/screen.scss */
 body {
   background: #f8f8f8;
+  font-family: 'Arvo', serif;
 }
 
-/* line 12, ../_sass/screen.scss */
+/* line 15, ../_sass/screen.scss */
+.header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 100;
+}
+
+/* line 22, ../_sass/screen.scss */
 .navbar {
   background: white;
   margin-bottom: 0;
 }
 
-/* line 16, ../_sass/screen.scss */
-.nav.nav-pills {
+/* line 26, ../_sass/screen.scss */
+.nav {
   padding-top: 15px;
   float: right;
   padding-bottom: 15px;
 }
+/* line 31, ../_sass/screen.scss */
+.nav li {
+  list-style-type: none;
+  float: left;
+  padding-right: 15px;
+  color: #4EB4D5;
+}
 
-/* line 21, ../_sass/screen.scss */
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+/* line 38, ../_sass/screen.scss */
+li.active > a, li.active > a:hover, li.active > a:focus {
   color: #fff;
   background-color: #4EB4D5;
 }
 
-/* line 25, ../_sass/screen.scss */
-.container2 {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+/* line 43, ../_sass/screen.scss */
+.logo {
+  float: left;
 }
 
-/* line 32, ../_sass/screen.scss */
+/* line 47, ../_sass/screen.scss */
 .hero {
-  background: url(../images/sketch-b.jpg);
+  background: url(../img/sketch-b.jpg);
   width: 100%;
   padding-top: 150px;
   margin-bottom: 15px;
   padding-bottom: 75px;
 }
 
-/* line 39, ../_sass/screen.scss */
-h1, h2 {
+/* line 54, ../_sass/screen.scss */
+h1, h2, h3, h4 {
   font-family: 'Arvo', serif;
 }
 
-/* line 43, ../_sass/screen.scss */
+/* line 58, ../_sass/screen.scss */
 .img-frame {
   background: white;
   padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 65, ../_sass/screen.scss */
+img {
+  width: 100%;
+}
+
+/* line 69, ../_sass/screen.scss */
+.page-frame {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 74, ../_sass/screen.scss */
+.twitter {
+  background-position: 0 -28px;
+}
+
+/* line 78, ../_sass/screen.scss */
+.facebook {
+  background-position: 0 -84px;
+}
+
+/* line 82, ../_sass/screen.scss */
+.pinterest {
+  background-position: 0 0;
+}
+
+/* line 86, ../_sass/screen.scss */
+.social a {
+  float: left;
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
+/* line 95, ../_sass/screen.scss */
+footer {
+  text-align: center;
+  background: white;
+  width: 100%;
+  padding: 8px 0;
+  margin-bottom: 0;
 }

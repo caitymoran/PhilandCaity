@@ -1,50 +1,105 @@
 // Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
 // @import "reset";
 
+@import "sprites/*.png";
+
 * {
     background-repeat: no-repeat;
 }
 
 body {
     background: #f8f8f8;
+    font-family: 'Arvo', serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 100;
 }
 
 .navbar {
     background: white;
     margin-bottom: 0;
 }
-    .nav.nav-pills{
+    .nav {
         padding-top: 15px;
         float:right;
         padding-bottom: 15px;
+
+        li {
+            list-style-type: none;
+            float: left;
+            padding-right: 15px;
+            color: #4EB4D5;
+        }
     }
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+.nav li.active>a, li.active>a:hover, li.active>a:focus {
 color: #fff;
 background-color: #4EB4D5;
 }
-.container2 {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
+.logo  {
+    float: left;
 }
 
 .hero {
-    background: url(../images/sketch-b.jpg);
+    background: url(../img/sketch-b.jpg);
     width: 100%;
     padding-top: 150px;
     margin-bottom: 15px;
     padding-bottom: 75px;
 }
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'Arvo', serif;
 }
 
 .img-frame {
     background: white;
     padding: 15px;
-
+    margin-bottom: 15px;
+    // max-width: 800px;
 }
+
+img{
+    width:100%;
+}
+
+.page-frame {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.twitter {
+    @include sprites-sprite(twitter);
+}
+
+.facebook {
+    @include sprites-sprite(facebook);
+}
+
+.pinterest {
+    @include sprites-sprite(pinterest);
+}
+
+.social a {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    background: white;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 800px) {
 
 }
